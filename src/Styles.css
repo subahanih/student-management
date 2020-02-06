@@ -1,0 +1,512 @@
+.login-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom left, #50c6d6, #002539);
+}
+
+.login-main-panel {
+    position:absolute;
+    width:1100px;
+    height:500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px 5px rgba(76, 74, 74, 0.5);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(76, 74, 74, 0.5);
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(76, 74, 74, 0.5);
+}
+
+.login-main-panel > div{
+    float:left;
+    margin:0;
+}
+
+.login-left-panel {
+    width:700px;
+    height:500px;
+    background-size: 100% 100%;
+    background-image: url('./images/cloud-bg.jpg');
+}
+  
+.login-right-panel {
+    width:400px;
+    height:500px;
+    background-color: #f5f5f5;
+}
+
+.login-text {
+    font: bold 32px arial, sans-serif;
+    padding: 80px 40px 20px 40px;
+    color: #277586;
+}
+
+.user-div {
+    width: 320px;
+    height: 40px;
+    padding: 40px 40px 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #277586;
+    background-clip: content-box;
+}
+
+.user-div > img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin:0 auto; 
+}
+
+.password-div {
+    width: 320px;
+    height: 40px;
+    padding: 10px 40px 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #277586;
+    background-clip: content-box;
+}
+
+.password-div > img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin:0 auto; 
+}
+
+.user-field {
+    width: 280px;
+    height: 40px;
+    text-indent: 10px;
+    font-size: 15px;
+    color: #277586;
+    background-color: #e6e6e6;
+    border-width: 0px;
+}
+
+.user-field:focus {
+    outline: none;
+}
+
+.password-field {
+    width: 280px;
+    height: 40px;
+    text-indent: 10px;
+    font-size: 15px;
+    color: #277586;
+    background-color: #e6e6e6;
+    border-width: 0px;
+}
+
+.password-field:focus {
+    outline: none;
+}
+
+.login-button-div {
+    padding: 10px 40px 20px 40px;
+}
+
+.login-notification-div {
+    padding: 10px 40px 20px 40px;
+    text-align: center;
+}
+
+.forgot-button {
+    color: #277586;
+    outline: 0;
+    border-width: 0px;
+    cursor: pointer;
+    background-color: #ffffff00;
+    padding: 10px 40px 20px 0px;
+}
+
+.login-button {
+    color: #021728;
+    width: 320px;
+    height: 38px;
+    background-color: #277586;
+    padding: 10px 40px 20px 40px;
+    outline: 0;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #1e6777;
+}
+
+.login-button:active {
+    background-color: #277586;
+}
+
+.about-me-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.about-me-txt {
+    font-weight: 100;
+    color: #e6e6e6;
+}
+
+.welcome-txt {
+    font-weight: 100;
+    color: #e6e6e6;
+    padding: 10px;
+}
+
+.menu-txt {
+    color: #e6e6e6;
+    font: normal 13px arial, sans-serif;
+    padding: 5px 0 0 45px;
+    cursor: pointer;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background: rgb(39,117,134);
+    background: linear-gradient(90deg, rgba(39,117,134,1) 0%, rgba(51,51,51,1) 40%, rgba(51,51,51,1) 100%);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: -webkit-center;
+    background-color: #277586;
+}
+
+.body-panel {
+    position:absolute;
+    width:calc(100% -150px);
+    height: calc(100% - 100px);
+    top: 100px;
+    left: 0;
+    right: 0;
+}
+
+.body-panel > div{
+    float:left;
+    margin:0;
+}
+
+.menubar {
+    width: 150px;
+    height: calc(100% - 100px);
+    background-color: #222222;
+    left: 0;
+    top: 100px;
+    position: fixed;
+}
+.mainbar {
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: #e6e6e6;
+    left: 150px;
+    top: 100px;
+    position: fixed;
+}
+
+.signout-img {
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+.logo-img {
+    width: 250px;
+    height: 60px;
+    float: left;
+    padding: 18px;
+}
+
+.menu-item-div {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222222;
+    background-clip: content-box;
+    display: table;
+}
+
+.menu-item-div:hover {
+    background-color: #333333;
+}
+
+.menu-item-div:active {
+    background-color: #222222;
+}
+
+.menu-item {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    padding: 30px 0 0 40px;
+}
+
+.dummy-div {
+    text-align: center;
+    width: 90%;
+    height: 85%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dummy-txt {
+    font-size: 24px;
+}
+
+.button-bar {
+    width: calc(100% - 167px);
+    height: 35px;
+    background-color: #d1d1d1;
+    margin: 8px 8px 6px 8px;
+    border-radius: 5px;
+    border: 1px solid #afafaf;
+    box-shadow: 0px 0px 4px 2px rgba(76, 74, 74, 0.3);
+    -moz-box-shadow: 0px 0px 4px 2px rgba(76, 74, 74, 0.3);
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(76, 74, 74, 0.3);
+}
+
+.add-edit-div {
+    position:absolute;
+    width: calc(100% - 164px);
+    height: calc(100% - 100px);
+    margin: 0 8px 0px 8px;
+    /* border: 1px solid #afafaf; */
+}
+
+.add-edit-div > div{
+    float:left;
+    margin:0;
+}
+
+.add-div {
+    width: 34%;
+    height: 100%;
+    border: 1px solid #b9b9b9;
+}
+
+.edit-div {
+    width: 65%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    border: 1px solid #b9b9b9;
+}
+  
+.tbl-students {
+    text-align: center;
+    font: normal 13px arial, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #dddddd;
+    width: 100%;
+}
+
+.tbl-students td, #students th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.tbl-students tr:nth-child(even) {
+    background-color: #f2f4f6;
+}
+
+.tbl-students tr:hover {
+    background-color: #dddddd;
+}
+
+.tbl-students tr:active {
+    background-color: #cecece;
+}
+
+.tbl-students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #277586;
+    color: white;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.text-field {
+    width: 100%;
+    height: 25px;
+    text-indent: 10px;
+    font-size: 15px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #000000;
+    outline: 0px;
+    background-color: #f2f4f6;
+    margin: 8px 0px 0px 0px;
+}
+
+.text-field:focus {
+    border: 2px solid #277586;
+}
+
+.lbl-text {
+    font: normal 14px arial, sans-serif;
+}
+
+.level-dob-div {
+    width: 47%;
+    height: 42px;
+    padding: 0px 10px 0px 0px;
+    display: table;
+    align-items: center;
+    justify-content: center; 
+}
+
+.input-div {
+    width: calc(100% - 40px);
+    height: 40px;
+    padding: 18px 20px 0px 20px;
+    display: table;
+    align-items: center;
+    justify-content: center; 
+}
+
+.input-div > div{
+    float:left;
+    margin:0;
+}
+
+.add-button {
+    color: #f2f4f6;
+    width: 60px;
+    height: calc(100% - 8px);
+    background-color: #277586;
+    margin: 4px 4px 4px 4px;
+    outline: 0;
+    border-width: 0px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-button:hover {
+    background-color: #1e6777;
+}
+
+.add-button:active {
+    background-color: #277586;
+    color: #e7e7e7;
+}
+
+.edit-button {
+    color: #f2f4f6;
+    width: 60px;
+    height: calc(100% - 8px);
+    background-color: #277586;
+    margin: 4px 4px 4px 4px;
+    outline: 0;
+    border-width: 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+}
+
+.edit-button:hover {
+    background-color: #1e6777;
+}
+
+.edit-button:active {
+    background-color: #277586;
+    color: #e7e7e7;
+}
+
+.delete-button {
+    color: #f2f4f6;
+    width: 60px;
+    height: calc(100% - 8px);
+    background-color: #277586;
+    margin: 4px 4px 4px 4px;
+    outline: 0;
+    border-width: 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+}
+
+.delete-button:hover {
+    background-color: #1e6777;
+}
+
+.delete-button:active {
+    background-color: #277586;
+    color: #e7e7e7;
+}
+
+.cancel-button {
+    color: #f2f4f6;
+    width: 100px;
+    height: 30px;
+    background-color: #277586;
+    margin: 4px 0px 4px 4px;
+    outline: 0;
+    border-width: 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+}
+
+.cancel-button:hover {
+    background-color: #1e6777;
+}
+
+.cancel-button:active {
+    background-color: #277586;
+    color: #e7e7e7;
+}
+
+.update-button {
+    color: #f2f4f6;
+    width: 100px;
+    height: 30px;
+    background-color: #277586;
+    margin: 4px 4px 4px 4px;
+    outline: 0;
+    border-width: 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+}
+
+.update-button:hover {
+    background-color: #1e6777;
+}
+
+.update-button:active {
+    background-color: #277586;
+    color: #e7e7e7;
+}
+
+.lbl-notification {
+    margin-left: 35%;
+    color: #0066ff;
+}
+
+.login-notification {
+    color: #ff0000;
+
+}
