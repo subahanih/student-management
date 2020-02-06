@@ -2,10 +2,10 @@
 Single page application developed using ReactJs, Firebase Firestore.
 
 ### Login Screen
-![](screenshots/LoginPage.png)
+![](screenshots/LoginPage.PNG)
 
 ### Main Screen
-![](screenshots/MainPage.png)
+![](screenshots/MainPage.PNG)
 
 ## Firebase Hosting
 This application has been hosted in below mentioned Firehosting.
